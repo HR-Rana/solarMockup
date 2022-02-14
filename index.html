@@ -178,7 +178,7 @@
            <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="video">
-                        <video src="video/pexels-kindel-media-9789926.mp4"  autoplay  loop></video>
+                        <video src="pexels-kindel-media-9789926 (video-converter.com)_2.mp4"  autoplay  loop></video>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
@@ -767,21 +767,21 @@
         }
     })
 
-// var owl = $('.owl-carousel');
-// owl.owlCarousel({
-//     items:4,
-//     loop:true,
-//     margin:10,
-//     autoplay:true,
-//     autoplayTimeout:1000,
-//     autoplayHoverPause:true
-// });
-// $('.play').on('click',function(){
-//     owl.trigger('play.owl.autoplay',[1000])
-// })
-// $('.stop').on('click',function(){
-//     owl.trigger('stop.owl.autoplay')
-// })
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
 
 
 $(".question1 ").on('click', function () {
