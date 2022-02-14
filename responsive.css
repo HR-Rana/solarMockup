@@ -1,0 +1,61 @@
+
+@media (max-width:768px){
+    header .logo{
+        width: 40%;
+    }
+    .section1 .Green-solar-area{
+         position:static;
+         bottom:0px;
+         left:0;
+     }
+     .banner-area .banner-right{
+        width: 90%;
+        margin: 50px auto;
+
+    }
+        
+    .section2{
+        padding:35px 0;
+    }
+    .whyus-area{
+        padding: 20px 0;
+    }
+    .faq{
+        width: 90%;
+        margin:  0 auto;
+    }
+    .faq h3{
+        width: 90%;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .more-clients{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+       padding-left: 30px;
+    }
+    .banner-area .banner-right{
+        width: 100%;
+        color: white;
+        text-shadow: 2px 2px black;
+        margin: 150px auto;
+        text-align: center;
+    }
+    .banner-area .banner-right p{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    header .navicon{
+        width: 30px;
+        height: 20px;
+        position: absolute;
+        top: 35px;
+        right: 15px;
+        display: block;
+    }
+    header .menu{
+        display: none;
+    }
+    
+}
