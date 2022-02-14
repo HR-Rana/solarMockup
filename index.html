@@ -750,22 +750,22 @@
     <script src="bootstrap.min.js"></script>
     <script>
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
+    // $('.owl-carousel').owlCarousel({
+    //     loop:true,
+    //     margin:10,
+    //     nav:true,
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         600:{
+    //             items:2
+    //         },
+    //         1000:{
+    //             items:4
+    //         }
+    //     }
+    // })
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
@@ -782,6 +782,7 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
+
 
 
 $(".question1 ").on('click', function () {
